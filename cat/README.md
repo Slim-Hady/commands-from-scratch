@@ -29,7 +29,7 @@ To write on the file:
 
 ```
 
-echo "hello world" \>\> file.txt
+echo "hello world" >> file.txt
 
 ```
 
@@ -66,14 +66,12 @@ If you try to write:
 
 ```
 
-./mycat non\_existent\_file.txt
+./mycat non_existent_file.txt
 
 ```
 
 And `non_existent_file.txt` doesn't exist, it will print an error:
 
 ```
-
-mycat: cannot open non\_existent\_file.txt
-
+mycat: non_existent_file.txt: No such file or directory⏎                                                                  
 ```
