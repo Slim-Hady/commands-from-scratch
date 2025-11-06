@@ -19,13 +19,15 @@ write
 
 if you want to make sure that it work like normal echo you can write normal echo like
 
+```
 echo "hello world" | md5sum 
-
+```
 result will be special characters 
 
 md5sum encrypt the output to special characters 
 
 then write 
+```
 ./myecho "hello world" | md5sum 
-
+```
 compare two result together and try more cases to ensure it work like normal echo 
